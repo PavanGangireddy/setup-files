@@ -40,25 +40,7 @@
   export PATH=$PATH:$ANDROID_HOME/emulator
   ```
 
-- Proceed to step 4.
-  > Using Command line
-
-### 3.21 Using android-studio repository
-
-- We need to add android studio official repository to the sources list. Therefore, Type the below command to add.
-  Hit enter when it ask for the confirmation.
-  `sh sudo add-apt-repository ppa:maarten-fonville/android-studio`
-- Now update apt cache.
-  ```sh
-  sudo apt update
-  ```
-- Now install android studio using apt. So that it will install the software along with dependencies.
-
-  ```sh
-  sudo apt install android-studio
-  ```
-
-### 3.22 Configure VM acceleration on Linux
+### 3.14 Configure VM acceleration on Linux
 
 - Linux-based systems support VM acceleration through the KVM software package.
 - Requirements
@@ -88,7 +70,7 @@
 
 - You will need to have Android device to run your ReactNative App. It can be either a physical or virtual Android device.
 
-### 4.1 Physical Device
+### 4.1 Physical Device [Skip this if you are doing for first time]
 
 - For running app for the physical device you will need to Enable Debugging over USB and Plug in your device via USB
 
@@ -129,12 +111,10 @@
   react-native run-android
   ```
 
-# Reference
+# References
 
 - [Installation](https://www.krizna.com/ubuntu/install-android-studio-ubuntu-20-04)
 - [Troubleshooting](https://medium.com/dooboolab/running-react-native-app-in-ubuntu-18-04-7d1db4ac7518)
-
-# Running react-native app in windows
 
 # Troubleshoot
 
