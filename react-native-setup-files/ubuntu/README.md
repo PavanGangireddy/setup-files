@@ -1,5 +1,7 @@
 ## 1. [Installing node and npm](https://tap.ibhubs.in/revision/node-setup/)
 
+> Note: If you have already installed node, skip this step
+
 ## 2. Install Java Development Kit
 
 - Run the below command
