@@ -60,7 +60,7 @@
   KVM acceleration can be used
   ```
 
-- Use the following command to install KVM in linux:
+- If the above output is not seen then use the following command to install KVM:
 
   ```sh
   sudo apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils ia32-libs-multiarch
@@ -77,7 +77,7 @@
 ### 4.2 Virtual Device (emulator)
 
 - To do that open the android studio and create a virtual device and power up AVD.
-- [Create a Virtual device](https://developer.android.com/studio/run/managing-avds)
+- [Create a Virtual device](https://developer.android.com/studio/run/managing-avds) - Select Build tools -> APILevel 28 Pie device
 - Run it
 
 ### 4.3 Verifying device is connected or not run this command
@@ -87,6 +87,8 @@
   ```sh
   adb devices
   ```
+
+### 4.4 Configure Android studio to the launcher list, instead of starting script everytime for easy access
 
 ## 5. Install react-native, create project and run the app
 
